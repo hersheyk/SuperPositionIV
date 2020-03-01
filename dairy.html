@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <title>repl.it</title>
+   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+ </head>
+   <body style=background-color:beige>
+   <script src="script.js"></script>
+  <p2>DAIRY</p2>
+  <p> </p>
+  <img src="https://ichef.bbci.co.uk/news/410/cpsprodpb/9123/production/_105755173_milk_alternatives-updated-optimised-nc.png"
+  width="350" height="200"></img>
+  <p>Milk is an essential part of Americans'  lives. It is vital to choose the right type of milk. According to this BBC graph of the enviornmental imapct of different type of milks, it is clear that dairy milk is detrimental to the earth due to its large carbon emissions, land use, and water use. However, oat milk and soy milk use the least land and water. They also produce significantly less carbon emissions. Therefore, if you want to consume milk ethically, you should choose vegan alternatives.</p>
+ 
+  <p><b> </b></p>
+  
+ 
+<button id='myBtn' class="btn ethic" onclick="function1()"><y>How can I be more ethical?</y></button>
+<p id="btn1"></p>
+<button id='myBtn1'class="btn ethic" onclick="function2()"><y>Learn more</y></button>
+<p id="btn2"></p>
+
+<script>
+var x = document.getElementById("myBtn");
+x.addEventListener("click", function1);
+ 
+var y = document.getElementById("myBtn1");
+y.addEventListener("click", function2);
+ 
+ 
+ 
+function function1() {
+ 
+ document.getElementById("btn1").innerHTML = "Try oat milk or soy milk!<br>";
+}
+function function2() {
+document.getElementById("btn2").innerHTML = "Americans drink gallons of milk every year. But how does that milk get made? In order to meet the large demand for milk, cows have to be artificially inseminated to give birth and produce milk. As a result, cows are constantly impregnated to produce six or seven times more than they used to. Cows are also injected with hormones to maximize their milk output. However, once the cows begin to decrease in productivity, they are sold off to the meat industry. Their lives are spent in confinement and treated unethically.<br>";
+}
+
+</script>
+<p></p>
+  <h4><a href=index.html>BACK</a></h4>
+</body>
+</html>

@@ -1,0 +1,77 @@
+h4{
+Font-family: Nunito;
+font-size:18px;
+color:rgb(19, 104, 55);
+text-align:center;
+}
+h5{
+  text-indent: 120px;
+color:rgb(10, 138, 59);
+font-size:18px;
+font-family: Work Sans;
+}
+h1{
+color:rgb(16, 82, 55);
+font-size:66px;
+font-family: fantasy;
+letter-spacing: 10px;
+display: inline;
+text-shadow:3px 1px rgb(181, 235, 193);
+}
+h2{
+color:black;
+font-size: 17px;
+}
+p{
+ font-size:16px;
+ font-family: Karla;
+ text-indent: 100px;
+}
+m{
+ text-align: center;
+}
+
+img{
+  vertical-align:top;
+}
+p2{
+  font-size: 28px;
+  font-family: "Nunito", Nunito;
+  border-style: solid;
+  border-color: ivory;
+  padding: 5px 14px;
+  ;
+}
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+y{
+  font-family: Nunito;
+  }
+
+}
+.ethic {
+  color: rgb(9, 97, 31);
+  border-color: rgb(9, 97, 31);
+}
+.btn{
+   color: rgb(9, 97, 31);
+  border-color: rgb(9, 97, 31);
+}
+.btn:hover{
+   color: rgb(9, 97, 31);
+  border-color: rgb(9, 97, 31);
+}
+.ethic:hover {
+  background-color: rgb(50, 156, 53);
+  color: white;
+  border-color: white
+}
+x{
+  background-color: none;
+}
+h3{
+  text-indent:120px;
+}
